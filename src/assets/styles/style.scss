@@ -1,0 +1,60 @@
+/*
+Template Name: Material Pro Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/**
+ * Table Of Content
+ *
+ * 	1. Globals
+ *	2. Headers
+ *	3. Navigations
+ *	4. Banners
+ *	5. Footers
+ *	6. app
+ *	7. Widgets
+ *	8. Custom Templates
+ */
+
+@import 'variable';
+
+@import 'spinner';
+@import 'app';
+@import 'header';
+@import 'pages';
+@import 'sidebar';
+@import 'responsive';
+
+@import "../styles/icons/material-design-iconic-font/css/materialdesignicons.min.css";
+
+
+
+*::-webkit-scrollbar{
+	width: 0.3rem;
+}
+
+*::-webkit-scrollbar-track{
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+	background: $themecolor-alt;
+	border-radius: 1rem;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+	background-color: $purple;
+}
+.double-bounce1{
+	background-color: $themecolor-alt;
+}
+.double-bounce2{
+	background-color: $themecolor;
+}
+
+#snav{
+	::-webkit-scrollbar{
+		width: 0;
+	}
+}
